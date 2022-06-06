@@ -3,6 +3,7 @@ body{
 	margin:0;
 	padding:0;
 	background:url("46087242-résumé-vagues-entreprises-gris-vecteur-de-fond.webp");
+	background-attachment: fixed;
 	font-family: 'Raleway',sans-serif;
 	color: #fff;
 }
