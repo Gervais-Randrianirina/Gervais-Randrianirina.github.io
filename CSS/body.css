@@ -1,0 +1,33 @@
+.section1{
+    border-top: solid fuchsia 1px ;
+    
+    
+}
+.section2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+  
+    
+}
+.section2 .boite1{
+    width: 220px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 240, 0.1);
+    text-align: center;
+    padding: 20px;
+}
+.sec1{
+    background-color:white;
+    width: 100vw;
+    display: block;
+}
+h4{
+    color: fuchsia;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}

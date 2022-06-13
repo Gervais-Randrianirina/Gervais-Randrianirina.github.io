@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 100vw;
+    
+    
+}
+header{
+    background-color: white;
+    color: black;
+    height: 85vh;
+    text-align: center;
+}
+header nav .log{
+    display: flex;
+    align-items: center;
+}
+header nav .logo{
+    margin-left: 10px;
+}
+
+header nav{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(255, 0, 255, 0.082);
+    backdrop-filter: blur(30px);
+    justify-content: space-between;
+    border-bottom: groove fuchsia 5px;
+    padding: 0.5rem;
+    margin-right: 2px;
+    margin-left: 2px;
+    border-radius: 10px;
+    
+    
+}
+header nav a{
+color: black;
+text-decoration: none;
+margin-left: 14vw;
+padding-right: 10px;
+
+
+}
+header nav a:hover{
+    color: fuchsia;
+    text-decoration: underline;
+    
+}
+.menu{
+    display: none;
+    align-items: center;
+}
+header img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-top: 20px;
+
+}
+header .principale p{
+    display: block;
+    margin-top: 125px;
+}
+header .principale .photo{
+    color: fuchsia;
+}
+.fixed{
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+
+@media screen and (max-width:750px) {
+    nav{
+        margin-top: 0.5px;
+        left: 0;
+        right: 0;
+    }
+    .menu{
+        display: block;
+        cursor: pointer;
+    }
+    header nav .onglet{
+        display: block;
+    } 
+   
+
+    header nav .onglet {
+        position: fixed;
+        background-color: rgba(209, 35, 93, 0.95);
+        margin-left: -105%;
+        height: 100vh;
+        width: 100vw;
+        top: 0;
+        left: 0;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.5s ease;
+        
+    }
+    .onglet.slide{
+        margin-left: -1px;
+    }
+    header nav img{
+        position: absolute;
+        right:20px;
+        display: none;
+        height: 30px;
+        width: 30px;
+        margin-top: -5px;
+    }
+        
+    .menus{
+        position: fixed;
+    }
+    header nav .onglet a{
+        display: block;
+        padding-top: 20px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    header nav img{
+        position: absolute;
+        display: block;
+    }
+    header nav .onglet .a1{
+        margin-top: 25vh;
+    }
+   
+
+
+}

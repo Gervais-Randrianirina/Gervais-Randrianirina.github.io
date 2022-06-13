@@ -1,0 +1,20 @@
+footer{
+    border-top: solid fuchsia 1px;
+    background-color: rgba(255, 0, 240, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-right: 200px;
+    margin-top: 20px;
+
+}
+
+footer ul{
+    justify-content: space-between;
+    list-style: none;
+    margin-left: -40px;
+
+    
+}
