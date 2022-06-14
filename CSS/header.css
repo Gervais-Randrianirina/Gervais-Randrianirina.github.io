@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto&display=swap');
+:root{
+    --baseCouleur: fuchsia
+    --fontCouleur: white;
+    --fontDiv:rgba(255, 0, 255, 0.082);
+}
 body{
     padding: 0;
     margin: 0;
@@ -9,7 +14,7 @@ body{
     
 }
 header{
-    background-color: white;
+    background-color: var(--fontCouleur);
     color: black;
     height: 100vh;
     text-align: center;
@@ -25,10 +30,10 @@ header nav .logo{
 header nav{
     display: flex;
     flex-wrap: wrap;
-    background-color: rgba(255, 0, 255, 0.082);
+    background-color: var(--fontDiv);
     backdrop-filter: blur(30px);
     justify-content: space-between;
-    border-bottom: groove fuchsia 5px;
+    border-bottom: groove var(--baseCouleur) 5px;
     padding: 0.5rem;
     margin-right: 2px;
     margin-left: 2px;
@@ -41,7 +46,7 @@ color: black;
 text-decoration: none;
 margin-left: 14vw;
 padding-right: 10px;
-transition: all 0.3s ease-in-out;
+transition: all 0.4s ease-out;
 
 
 }
@@ -62,7 +67,7 @@ header .principale p{
     margin-top: 125px;
 }
 header .principale .photo{
-    color: fuchsia;
+    color: var(--baseCouleur);
 }
 .fixed{
         position: fixed;
@@ -71,7 +76,7 @@ header .principale .photo{
         top: 0;
     }
 nav a:hover{
-    background-color: fuchsia;
+    background-color: var(--fontCouleur);
     border: solid black 1px;
     border-radius: 20px;
     color: rgb(7, 7, 7);
@@ -94,7 +99,7 @@ nav a:hover{
 
     header nav .onglet {
         position: fixed;
-        background-color: rgba(209, 35, 93, 0.95);
+        background-color: var(--baseCouleur);
         margin-left: -104%;
         height: 100vh;
         width: 100vw;

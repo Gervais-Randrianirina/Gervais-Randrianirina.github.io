@@ -1,6 +1,11 @@
+:root{
+    --baseCouleur: fuchsia;
+    --fontCouleur: white;
+    --fontDiv:rgba(255, 0, 255, 0.082);
+}
 footer{
-    border-top: solid fuchsia 1px;
-    background-color: rgba(255, 0, 240, 0.1);
+    border-top: solid var(--baseCouleur) 1px;
+    background-color: var(--fontDiv);
     display: flex;
     flex-wrap: wrap;
     padding: 20px;

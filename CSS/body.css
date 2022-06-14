@@ -1,5 +1,10 @@
+:root{
+    --baseCouleur: fuchsia;
+    --fontCouleur: white;
+    --fontDiv:rgba(255, 0, 255, 0.082);
+}
 .section1{
-    border-top: solid fuchsia 1px ;
+    border-top: solid var(--baseCouleur) 1px ;
     
     
 }
@@ -15,17 +20,17 @@
     width: 220px;
     margin: 20px;
     border-radius: 5px;
-    background-color: rgba(255, 0, 240, 0.1);
+    background-color: var(--fontDiv);
     text-align: center;
     padding: 20px;
 }
 .sec1{
-    background-color:white;
+    background-color:var(--fontCouleur);
     width: 100%;
     display: block;
 }
 h4{
-    color: fuchsia;
+    color: var(--baseCouleur);
     text-align: center;
 }
 h1{
