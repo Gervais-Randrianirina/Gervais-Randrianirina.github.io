@@ -4,13 +4,14 @@ body{
     margin: 0;
     font-family: 'Kdam Thmor Pro', sans-serif;
     width: 100%;
-    
+   /* filter: invert(1) hue-rotate(180deg); */
+  
     
 }
 header{
     background-color: white;
     color: black;
-    height: 85vh;
+    height: 100vh;
     text-align: center;
 }
 header nav .log{
@@ -91,7 +92,7 @@ header .principale .photo{
     header nav .onglet {
         position: fixed;
         background-color: rgba(209, 35, 93, 0.95);
-        margin-left: -105%;
+        margin-left: -104%;
         height: 100vh;
         width: 100vw;
         top: 0;
