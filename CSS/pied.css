@@ -1,7 +1,9 @@
 :root{
-    --baseCouleur: fuchsia;
+    --baseCouleur: rgba(0, 204, 255, 0.959);
     --fontCouleur: white;
-    --fontDiv:rgba(255, 0, 255, 0.082);
+    --fontDiv:rgba(68, 184, 199, 0.2);
+    --fontText: black;
+
 }
 footer{
     border-top: solid var(--baseCouleur) 1px;
@@ -12,7 +14,7 @@ footer{
     justify-content: space-between;
     align-items: baseline;
     padding-right: 200px;
-    margin-top: 20px;
+    background-color: var(--fontCouleur);
 
 }
 

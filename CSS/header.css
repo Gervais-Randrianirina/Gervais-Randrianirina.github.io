@@ -1,23 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto&display=swap');
 :root{
-    --baseCouleur: fuchsia
+    --baseCouleur: rgba(0, 204, 255, 0.959);
     --fontCouleur: white;
-    --fontDiv:rgba(255, 0, 255, 0.082);
+    --fontDiv:rgba(68, 184, 199, 0.2);
+    --fontText: black;
+
 }
 body{
     padding: 0;
     margin: 0;
     font-family: 'Kdam Thmor Pro', sans-serif;
     width: 100%;
+    color: var(--fontText);
    /* filter: invert(1) hue-rotate(180deg); */
   
     
 }
 header{
     background-color: var(--fontCouleur);
-    color: black;
+    color: var(--fontText);
     height: 100vh;
     text-align: center;
+    margin-top: -16px;
 }
 header nav .log{
     display: flex;
@@ -42,7 +46,7 @@ header nav{
     
 }
 header nav a{
-color: black;
+color: var(--fontText);
 text-decoration: none;
 margin-left: 14vw;
 padding-right: 10px;
@@ -62,12 +66,14 @@ header img{
     margin-top: 20px;
 
 }
+
 header .principale p{
     display: block;
-    margin-top: 125px;
+    padding-top: 125px;
 }
 header .principale .photo{
     color: var(--baseCouleur);
+    font-weight: bolder;
 }
 .fixed{
         position: fixed;
@@ -75,6 +81,7 @@ header .principale .photo{
         right: 0;
         top: 0;
     }
+
 nav a:hover{
     background-color: var(--fontCouleur);
     border: solid black 1px;

@@ -1,7 +1,9 @@
 :root{
-    --baseCouleur: fuchsia;
+    --baseCouleur: rgba(0, 204, 255, 0.959);
     --fontCouleur: white;
-    --fontDiv:rgba(255, 0, 255, 0.082);
+    --fontDiv:rgba(68, 184, 199, 0.2);
+    --fontText: black;
+
 }
 .section1{
     border-top: solid var(--baseCouleur) 1px ;
@@ -35,4 +37,42 @@ h4{
 }
 h1{
     text-align: center;
+}
+.check{
+    background-color: rgb(247, 245, 245);
+    width: 30px;
+    height: 15px;
+    border-radius: 7px;
+    border: solid gray 1px;
+    margin-left: 20px;
+}
+
+.ongle{
+    position: relative;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: gray;
+    transition: all 0.3s ease-out;
+}
+.cyble{
+   opacity: 0;
+   cursor: pointer;
+   width: 25px;
+   margin-left: 0px;
+}
+
+.defile{
+    transform: translateX(15px);
+    background-color: white;
+}
+.bgc{
+    background-color: blue;
+}
+
+.mode-dark{
+    --baseCouleur: rgba(0, 204, 255, 0.959);
+    --fontCouleur: gray;
+    --fontDiv:rgba(68, 184, 199, 0.2);
+    --fontText: white;
 }
