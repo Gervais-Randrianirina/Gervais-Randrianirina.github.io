@@ -5,9 +5,11 @@
     --fontText: black;
 
 }
+.foot{
+    background-color: var(--fontDiv);
+}
 footer{
     border-top: solid var(--baseCouleur) 1px;
-    background-color: var(--fontDiv);
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
@@ -17,7 +19,6 @@ footer{
     background-color: var(--fontCouleur);
 
 }
-
 footer ul{
     justify-content: space-between;
     list-style: none;
