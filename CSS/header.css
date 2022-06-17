@@ -21,7 +21,7 @@ header{
     color: var(--fontText);
     height: 100vh;
     text-align: center;
-    margin-top: -16px;
+    
 }
 header nav .log{
     display: flex;
@@ -41,9 +41,10 @@ header nav{
     padding: 0.5rem;
     margin-right: 2px;
     margin-left: 2px;
-    border-radius: 10px;
-    
-    
+    border-radius: 10px;  
+}
+.fix{
+    margin-top: opx;
 }
 header nav a{
 color: var(--fontText);
@@ -89,9 +90,9 @@ nav a:hover{
     color: rgb(7, 7, 7);
     padding: 5px;
 }
-@media screen and (max-width:750px) {
+@media screen and (max-width:830px) {
     nav{
-        margin-top: 0.5px;
+        margin-top: 0px;
         left: 0;
         right: 0;
     }
@@ -131,6 +132,7 @@ nav a:hover{
         
     .menus{
         position: fixed;
+        
     }
     header nav .onglet a{
         display: block;
