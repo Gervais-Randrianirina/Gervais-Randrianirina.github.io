@@ -49,12 +49,12 @@ let Oncheked = ()=>{
  if(btn.checked){
      div.classList.add('defile')
      bg.classList.add('bgc')
-     label.innerHTML="Mode dark"
+     label.innerHTML="Mode Dark"
      body.classList.add('mode-dark')
  }else{
      div.classList.remove('defile')
      bg.classList.remove('bgc')
-     label.innerHTML="Mode claire"
+     label.innerHTML="Mode Claire"
      body.classList.remove('mode-dark')
 
  }
